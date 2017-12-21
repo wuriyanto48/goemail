@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/wuriyanto48/goemail.svg?branch=master)](https://travis-ci.org/wuriyanto48/goemail)
 
+## Install
+
+  ```shell
+  $ go get https://github.com/wuriyanto48/goemail
+  ```
+
 ### Usage
 
   - Example Html Email Template or using this awesome template https://github.com/leemunroe/responsive-html-email-template
