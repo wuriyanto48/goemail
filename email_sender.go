@@ -20,7 +20,7 @@ type email struct {
 	body    string
 }
 
-// NewEmail function, for initialize email model
+// New function, for initialize email model
 func New(to []string, address, from, subject, body, authEmail, authPassword, authHost string) EmailSender {
 	return &email{
 		authEmail:    authEmail,
@@ -48,7 +48,7 @@ func (e *email) Send() error {
 	return nil
 }
 
-// ParseTemplate function for parse template to email body
+// SetTemplate function for set and parse template to email body
 func (e *email) SetTemplate(templateFile string, data interface{}) error {
 	t, err := template.ParseFiles(templateFile)
 	if err != nil {
