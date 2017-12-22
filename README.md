@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/wuriyanto48/goemail.svg?branch=master)](https://travis-ci.org/wuriyanto48/goemail)
 
+  Send Email with your custom template with Golang, easy and straight forward
+
 ## Install
 
   ```shell
