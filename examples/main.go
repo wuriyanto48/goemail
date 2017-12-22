@@ -25,24 +25,10 @@ func main() {
 		URL:      "wuriyanto.com",
 	}
 
-	err := execute(email, "template.html", emailData)
+	err := goemail.Execute(email, "template.html", emailData)
 	if err != nil {
 		fmt.Println(err)
 	}
 	fmt.Println("email sent")
 
-}
-
-func execute(u goemail.EmailSender, fileName string, data interface{}) error {
-	err := u.SetTemplate(fileName, data)
-	if err != nil {
-		return err
-	}
-
-	err = u.Send()
-	if err != nil {
-		return err
-	}
-
-	return nil
 }
