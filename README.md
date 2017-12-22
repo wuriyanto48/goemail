@@ -8,6 +8,9 @@
   $ go get https://github.com/wuriyanto48/goemail
   ```
 
+## Result
+  ![alt text](./examples/result_example.png)
+
 ### Usage
 
   - Example Html Email Template or using this awesome template https://github.com/leemunroe/responsive-html-email-template
