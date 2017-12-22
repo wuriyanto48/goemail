@@ -1,7 +1,7 @@
 package goemail
 
-// EmailSender interface
-type EmailSender interface {
-	Send() error
-	SetTemplate(templateFile string, data interface{}) error
+// emailSender interface
+type emailSender interface {
+	send() error
+	setTemplate(templateFile string, data interface{}) error
 }
