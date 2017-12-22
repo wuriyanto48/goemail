@@ -7,7 +7,7 @@
 ## Install
 
   ```shell
-  $ go get https://github.com/wuriyanto48/goemail
+  $ go get github.com/wuriyanto48/goemail
   ```
 
 ## Result
